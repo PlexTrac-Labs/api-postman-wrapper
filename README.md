@@ -1,5 +1,5 @@
 # api-postman-wrapper
-> It is recommended to use the base-API-script repo over this lite option.
+> It is recommended to use the [base-API-script](https://github.com/PlexTrac-Labs/base-API-script) repo over this lite option.
 
 An SDK lite version of the endpoints listed in the PT Postman Collection for use in Python scripting. This set of functions was generated from the Postman Collection JSON export.
 
