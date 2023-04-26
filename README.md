@@ -1,4 +1,6 @@
 # api-postman-wrapper
+> It is recommended to use the base-API-script repo over this lite option.
+
 An SDK lite version of the endpoints listed in the PT Postman Collection for use in Python scripting. This set of functions was generated from the Postman Collection JSON export.
 
 This collection of files and functions acts as a wrapper for the Python requests module. It creates a function containing the description and URL for each request in Postman. When developing a Python script that needs to send API requests to a Plextrac instance, this collection allows you to write the script more directly without having so jump back and forth between Postman to copy the URL needed for a request.
