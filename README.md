@@ -11,10 +11,12 @@ This collection of files and functions acts as a wrapper for the Python requests
 3. Write your API calls directly in the file
 
 If your IDE has correctly found the api folder you can start typing `api.` and then auto complete should display your options.
-![image](https://user-images.githubusercontent.com/88407273/220484222-af42c024-8333-4267-b139-e82ca09c20f1.png)
+![image](https://github.com/PlexTrac-Labs/api-postman-wrapper/assets/88407273/d60d2723-7de3-4216-bcc0-e192e65a3043)
+
 
 The structure to find endpoints is the same as the Postman folder structure. So to call the `Get Findings` endpoint, in the Postman folders `v1/Findings` you can write `api._v1.findings.get_finding()`. You can then hover over the function name and your IDE should display the parameters the function needs to successfully make the call through the Python requests module. It will also show the Postman description.
-![image](https://user-images.githubusercontent.com/88407273/220484551-bc96351a-eee3-41ef-ab99-8c77e4079404.png)
+![image](https://github.com/PlexTrac-Labs/api-postman-wrapper/assets/88407273/cf59e8d0-04a6-4cd7-be43-664b4d3d74aa)
+
 
 **Note:** All folder and request names have been stripped of special characters and lowercased. You should be able to find a certain request by following the Postman folder structure.
 
